@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>MY PERSONAL PORTFOLIO</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">ABOUT</a>
+            <a href="#services">SERVICES</a>
+            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello,It's Me</h3>
+            <h1>Gihani</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <div class="social-media">
+                <a href="https://github.com/gihani571"><i class='bx bxl-github'></i></a>
+                <a href="mailto:gihanimadhubashini75@gmail.com"><i class='bx bxs-envelope'></i></a>
+                <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/gihani-madhubashini"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+            <a href="cv/Gihani_Madhubhashini CV Resume.pdf" class="btn"> Resume</a>
+        </div>
+        <div class="home-img">
+            <img src="image/img1.jpg" alt="">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="image/computer_engineer-compare-page.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About<span>Me</span></h2>
+            <h3>Full Stack Developer</h3>
+            <p>I am a web full-stack developer with an IT background and a strong focus on UI/UX design. I enjoy turning
+                complex problems into simple, effective, and visually appealing solutions that create seamless user
+                experiences. With a solid foundation in graphic design, I create interfaces that are both functional and
+                attractive. I am always expanding my skills to keep up with the latest in technology, bringing a fresh
+                and innovative approach to every project. </p>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2 class="heading">My<span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Crafting modern, high-quality web designs at a professional level to deliver exceptional user experiences.</p>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-crop'></i>
+                <h3>UI/UX Design</h3>
+                <p>Creating intuitive and visually compelling UI/UX designs that enhance user satisfaction and engagement at a professional level.</p>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-instagram-alt'></i>
+                <h3>App Design</h3>
+                <p>Developing high-quality, user-friendly mobile apps that combine performance and smooth user experience, designed for today's devices.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-edit'></i>
+                <h3>Graphic Design</h3>
+                <p>Designing clear and attractive graphics that communicate ideas creatively.</p>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest<span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="image/ceylonStyle.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Fashion E-Commerce website</h4>
+                    <p>In this project I try making a stylish and user-friendly fashion e-commerce website that provides a seamless shopping experience and showcases the latest trends.</p>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="image/pro connet.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Freelancing Plateform For Nalanda Foundation</h4>
+                    <p>In this project I try deployed a freelancing platform for Nalanda Foundation that connects skilled professionals with meaningful projects, empowering both clients and freelancers.</p>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="image/Blue Modern Mobile Mockup Instagram Post.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Water Bill Calculator</h4>
+                    <p>In this project I try detect Creating a simple and efficient water bill calculator that helps users easily calculate their water usage and costs.</p>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="image/thankcard.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Thank You Cards Design</h4>
+                    <p>"Designing simple and personalized thank you cards to express appreciation.</p>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="image/cetificate.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Certificate Design</h4>
+                    <p>Designing clean and professional certificates that clearly show achievements with attractive layouts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact<span>ME!</span></h2>
+
+        <form action="#" name="submit-to-google-sheet">
+            <div class="input-box">
+                <input type="text" name="Name" placeholder="Full Name">
+                <input type="email" name="Email Address" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" name="Mobile Number" placeholder="Mobile Number">
+                <input type="text" name="Email Subject" placeholder="Email Subject">
+            </div>
+            <textarea name="Your Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+        <span id="msg"></span>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Gihani | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzFPVGxI-75Ilkm2z_EMuI9ubPlp8-7dQmMzzdPiIunLPPzj3bcY1ohMdT_DfZ3zPwhTA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
